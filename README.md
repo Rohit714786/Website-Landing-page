@@ -3,7 +3,7 @@
 A premium, high-conversion landing page for a futuristic tech product. This project features a modern design aesthetic, responsive layout, and interactive components.
 
 ## 🚀 Live Demo
-[View the Live Site on GitHub Pages](https://Rohit7.github.io/Website-Landing-page/)
+[View the Live Site on GitHub Pages](https://Rohit714786.github.io/Website-Landing-page/)
 
 ## ✨ Features
 - **Premium Design:** Modern typography, smooth gradients, and glassmorphism.
