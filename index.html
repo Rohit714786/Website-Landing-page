@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus - The Future of Productivity</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Nexus<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#waitlist" class="btn btn-primary nav-btn">Get Early Access</a>
+      <button class="mobile-nav-toggle"><i class="fas fa-bars"></i></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <span class="badge">Coming Soon</span>
+        <h1>Next-Gen Tech for <span>Better Living</span></h1>
+        <p>Experience the most advanced productivity suite ever built. Seamless, powerful, and designed for the future.
+        </p>
+        <div class="hero-btns">
+          <a href="#waitlist" class="btn btn-primary">Pre-order Now</a>
+          <button id="videoBtn" class="btn btn-secondary"><i class="fas fa-play"></i> Watch Video</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="hero.png" alt="Nexus Product">
+      </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="video-container">
+          <iframe id="promoVideo" width="560" height="315" data-src="https://www.youtube.com/embed/ScMzIvxBSi4" src=""
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    <section id="waitlist" class="waitlist container">
+      <div class="waitlist-card">
+        <h2>Join the <span>Exclusive</span> Waitlist</h2>
+        <p>Be the first to know when we launch and get a 40% early-bird discount.</p>
+        <form class="waitlist-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-primary">Count Me In</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="features" class="features container">
+      <div class="section-title">
+        <h2>Powerful <span>Features</span></h2>
+        <p>Everything you need to stay ahead of the curve.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon"><i class="fas fa-bolt"></i></div>
+          <h3>Lightning Fast</h3>
+          <p>Optimized for speed, Nexus handles complex tasks in milliseconds.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon"><i class="fas fa-shield-halved"></i></div>
+          <h3>Secure by Design</h3>
+          <p>Your data is encrypted with military-grade security at every layer.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon"><i class="fas fa-brain"></i></div>
+          <h3>AI Powered</h3>
+          <p>Advanced machine learning adapts to your workflow automatically.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon"><i class="fas fa-mobile-screen-button"></i></div>
+          <h3>Multi-Platform</h3>
+          <p>Sync seamlessly across all your devices, anytime, anywhere.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery container">
+      <div class="section-title">
+        <h2>Product <span>Showcase</span></h2>
+        <p>A closer look at the future.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item"><img
+            src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=400" alt="Detail 1">
+        </div>
+        <div class="gallery-item"><img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400"
+            alt="Detail 2"></div>
+        <div class="gallery-item"><img
+            src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=400"
+            alt="Detail 3"></div>
+      </div>
+    </section>
+
+    <section class="testimonials container">
+      <div class="section-title">
+        <h2>What <span>Early Adopters</span> Say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>"Nexus has completely changed the way I manage my workspace. Truly revolutionary."</p>
+          <div class="user">
+            <img src="https://i.pravatar.cc/150?u=1" alt="Sarah J.">
+            <div>
+              <h4>Sarah J.</h4>
+              <span>Tech Lead at Aether</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <p>"The AI integration is seamless. It feels like it knows what I need before I do."</p>
+          <div class="user">
+            <img src="https://i.pravatar.cc/150?u=2" alt="Mark D.">
+            <div>
+              <h4>Mark D.</h4>
+              <span>Product Designer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing container">
+      <div class="section-title">
+        <h2>Simple <span>Pricing</span></h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Basic</h3>
+          <div class="price">$49<span>/one-time</span></div>
+          <ul>
+            <li><i class="fas fa-check"></i> Standard Access</li>
+            <li><i class="fas fa-check"></i> 1 Year Updates</li>
+            <li><i class="fas fa-check"></i> Community Support</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Pre-order</a>
+        </div>
+        <div class="pricing-card featured">
+          <span class="popular-badge">Most Popular</span>
+          <h3>Pro</h3>
+          <div class="price">$99<span>/one-time</span></div>
+          <ul>
+            <li><i class="fas fa-check"></i> Priority Access</li>
+            <li><i class="fas fa-check"></i> Lifetime Updates</li>
+            <li><i class="fas fa-check"></i> 24/7 Premium Support</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Pre-order Now</a>
+        </div>
+        <div class="pricing-card">
+          <h3>Founders</h3>
+          <div class="price">$199<span>/one-time</span></div>
+          <ul>
+            <li><i class="fas fa-check"></i> Beta Access</li>
+            <li><i class="fas fa-check"></i> Limited Edition NFT</li>
+            <li><i class="fas fa-check"></i> Exclusive Events</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Join Founders</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq container">
+      <div class="section-title">
+        <h2>Common <span>Questions</span></h2>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>When will Nexus launch? <i class="fas fa-plus"></i></summary>
+          <p>We are targeting a full public launch in Q4 2024. Waitlist members will get early access.</p>
+        </details>
+        <details>
+          <summary>Is there a monthly fee? <i class="fas fa-plus"></i></summary>
+          <p>No, we believe in transparent pricing. All our pre-order plans are one-time payments.</p>
+        </details>
+        <details>
+          <summary>Can I return my pre-order? <i class="fas fa-plus"></i></summary>
+          <p>Yes, we offer a 30-day money-back guarantee from the date of the product launch.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-content">
+      <div class="footer-info">
+        <a href="#" class="logo">Nexus<span>.</span></a>
+        <p>Building the next generation of productivity tools.</p>
+      </div>
+      <div class="footer-links">
+        <div class="link-group">
+          <h4>Product</h4>
+          <a href="#">Features</a>
+          <a href="#">Beta</a>
+          <a href="#">Pricing</a>
+        </div>
+        <div class="link-group">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Press</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Nexus Technologies. All rights reserved.</p>
+      <div class="socials">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Video Modal Logic
+    const modal = document.getElementById("videoModal");
+    const btn = document.getElementById("videoBtn");
+    const span = document.getElementsByClassName("close-modal")[0];
+    const video = document.getElementById("promoVideo");
+    const videoSrc = video.getAttribute("data-src");
+
+    btn.onclick = function () {
+      modal.style.display = "flex";
+      video.src = videoSrc + "?autoplay=1&mute=1"; // Mute added for better autoplay compatibility
+    }
+
+    const closeModal = function () {
+      modal.style.display = "none";
+      video.src = "";
+    }
+
+    span.onclick = closeModal;
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        closeModal();
+      }
+    }
+    // Waitlist Form Logic
+    const waitlistForm = document.querySelector(".waitlist-form");
+    if (waitlistForm) {
+      waitlistForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const btn = this.querySelector("button");
+        const originalText = btn.textContent;
+
+        // Simple feedback loop
+        btn.textContent = "Joining...";
+        btn.disabled = true;
+
+        setTimeout(() => {
+          window.location.href = "success.html";
+        }, 1000);
+      });
+    }
+  </script>
+</body>
+
+</html>
